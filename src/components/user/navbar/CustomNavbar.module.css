@@ -1,0 +1,54 @@
+.navbarCustom {
+  background-color:  #f8dce5;
+  border-bottom: 1px solid #e793af; 
+  
+}
+
+.navbarBrand {
+  left: 50%;
+  cursor: pointer;
+}
+
+.logoImage {
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+}
+
+
+.navLink, .dropdownToggle {
+  color: #e75480 !important; 
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.navLink:hover, .dropdownToggle:hover {
+  color: #d1466f !important; 
+}
+
+.cartCount {
+  background-color: #e75480;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+

@@ -1,0 +1,62 @@
+.container {
+  background-color: #eb9fbe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formCard {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn {
+  width: 100%;
+  background-color: #eb9fbe;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #643d4e;
+}
+
+.footerText {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  
+}
+
+.links{
+    margin-left: 5px;
+     color: #222;
+  font-weight: 500;
+  text-decoration: underline;
+}

@@ -1,0 +1,78 @@
+.ordersSection {
+  padding: 30px;
+  background-color: #fff0f5;
+  min-height: 100vh;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.sectionTitle {
+  text-align: center;
+  color: #d63384;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.ordersGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.orderCard {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+  padding: 20px;
+width: 400px;
+}
+
+.orderId {
+  color: #d63384;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.status {
+  color: #ff69b4;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 1px solid #f5c2da;
+}
+
+.itemInfo {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.cancelBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancelBtn:hover {
+  background-color: #c82333;
+}

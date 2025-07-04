@@ -1,0 +1,32 @@
+.flowerImg {
+  height: 80vh;
+  background-image: url('../../../assets/flowerBg.png'); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5%;
+}
+
+.overlay {
+  background-color: rgba(240, 47, 150, 0.045);
+  padding: 2%;
+  border-radius: 5%;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #da72a2;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #e75480;
+  font-style: italic;
+  
+}

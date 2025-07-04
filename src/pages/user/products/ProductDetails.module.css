@@ -1,0 +1,145 @@
+.productSection {
+  padding: 30px;
+  background-color: #fff0f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+  padding: 40px;
+  width: 800px;
+}
+
+.image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #d63384;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  text-align: center;
+  color: #555;
+  margin: 10px 0 20px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.addToCart {
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addToCart:hover {
+  background-color: #e754a1;
+}
+
+.reviewForm {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.submitReview {
+  background-color: #d63384;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.submitReview:hover {
+  background-color: #c02675;
+}
+
+.reviewsSection {
+  margin-top: 40px;
+}
+
+.reviewsTitle {
+  color: #d63384;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviewCard {
+  background-color: #ffe6f0;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(255, 192, 203, 0.2);
+}
+
+.reviewRating {
+  font-weight: bold;
+  color: #ff1493;
+  margin-bottom: 10px;
+}
+
+.reviewFooter {
+  font-size: 0.9rem;
+  color: #888;
+  text-align: end;
+}
+
+
+.noReviews {
+  text-align: center;
+  color: #999;
+}
+
+.loaderContainer {
+  height: 100vh;
+  background: #ffe6f0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f8d7e9; 
+  border-top: 6px solid #d63384; 
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  box-shadow: 0 0 15px #f8d7e9; 
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

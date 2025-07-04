@@ -1,0 +1,78 @@
+.categoriesSection {
+  padding: 4% 8%;
+  background-color: #f3cfda;
+  text-align: center;
+   border-bottom: 1px solid #e793af;
+}
+
+.title {
+  font-size: 200%;
+  margin-bottom: 4%;
+  color: #d63384;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #f3c2d3;
+  border-radius: 16px;
+  width: 28%;
+  padding: 4%;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  margin: 2% 2%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 180px;
+  height: auto;
+  max-height: 200px;
+  border-radius: 12px;
+  margin-bottom: 8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.name {
+  font-size: 125%;
+  color: #d63384;
+  margin-top: 0;
+}
+
+
+.loaderContainer {
+  height: 100vh;
+  background: #ffe6f0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f8d7e9; 
+  border-top: 6px solid #d63384; 
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  box-shadow: 0 0 15px #f8d7e9; 
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
